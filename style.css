@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* task one */
+.taskOne {
+  margin: 20px;
+}
+
+.taskOne .parent .child .title {
+  color: red;
+}
+.taskOne .parent > .title {
+  color: blue;
+}
+.taskOne p,
+.taskOne .title {
+  color: green;
+}
+/* taskTwo */
+.taskTwo h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px red, 4px 4px green, 6px 6px blue;
+}
+/* task 3 */
+.TaskThree {
+  text-align: center;
+  padding: 2rem;
+  font-size: 30px;
+  margin: 20px;
+}
+.TaskThree .one {
+  text-transform: uppercase;
+}
+.TaskThree .two {
+  text-transform: capitalize;
+}
+.TaskThree .three {
+  text-transform: lowercase;
+}
+/* TaskFour */
+.TaskFour {
+  margin: 20px;
+  width: 800px;
+  background-color: #eee;
+  outline: 5px solid #eee;
+}
+.TaskFour .full {
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.TaskFour .width3 .one {
+  display: inline-block;
+  width: calc(95% / 3);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width3 .two {
+  display: inline-block;
+  width: calc(95% / 3);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width3 .three {
+  display: inline-block;
+  width: calc(95% / 3);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.TaskFour .width2 .one {
+  display: inline-block;
+  width: calc(97.5% / 2);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width2 .two {
+  display: inline-block;
+  width: calc(97.5% / 2);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.TaskFour .width4 .one {
+  display: inline-block;
+  width: calc(92.5% / 4);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width4 .two {
+  display: inline-block;
+  width: calc(92.5% / 4);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width4 .three {
+  display: inline-block;
+  width: calc(92.5% / 4);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+  margin-right: 15px;
+}
+.TaskFour .width4 .four {
+  display: inline-block;
+  width: calc(92.5% / 4);
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+}
+/* task 5 */
+.Task5 {
+  width: 400px;
+  text-align: justify;
+  padding: 2rem;
+  margin: 0 auto;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  line-height: 30px;
+  font-size: 20px;
+  position: relative;
+}
+.top-left {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-right: 2px solid red;
+  position: absolute;
+  top: -20px;
+  left: -15px;
+}
+.bottom-left {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-right: 2px solid red;
+  position: absolute;
+  bottom: -17px;
+  left: -15px;
+}
+.top-right {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-left: 2px solid red;
+  position: absolute;
+  top: -17px;
+  right: -15px;
+}
+.bottom-right {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-left: 2px solid red;
+  position: absolute;
+  bottom: -17px;
+  right: -15px;
+}
